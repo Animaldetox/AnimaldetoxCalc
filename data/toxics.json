@@ -1,0 +1,2402 @@
+[
+  {
+    "n": "Chocolat noir",
+    "cat": "methylxanthine",
+    "sev": 2,
+    "ld50_mg_per_kg": 140,
+    "antidote": null,
+    "notes": "Effets variables selon la teneur en cacao"
+  },
+  {
+    "n": "Xylitol",
+    "cat": "sucre toxique",
+    "sev": 5,
+    "ld50_mg_per_kg": 100,
+    "antidote": null,
+    "notes": "Hypoglycémie sévère chez le chien"
+  },
+  {
+    "n": "Raisin",
+    "cat": "néphrotoxique",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Sensibilité variable"
+  },
+  {
+    "n": "Paracétamol",
+    "cat": "hépatotoxique",
+    "sev": 5,
+    "ld50_mg_per_kg": 150,
+    "antidote": "N-acétylcystéine",
+    "notes": "Très toxique pour le chat"
+  },
+  {
+    "n": "Ibuprofène",
+    "cat": "AINS",
+    "sev": 5,
+    "ld50_mg_per_kg": 100,
+    "antidote": null,
+    "notes": "Toxicité rénale"
+  },
+  {
+    "n": "Toxique généré 1",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 51,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 2",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 52,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 3",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 4",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 54,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 5",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 55,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 6",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 7",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 57,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 8",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 58,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 9",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 10",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 60,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 11",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 61,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 12",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 13",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 63,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 14",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 64,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 15",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 16",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 66,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 17",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 67,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 18",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 19",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 69,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 20",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 70,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 21",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 22",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 72,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 23",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 73,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 24",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 25",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 75,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 26",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 76,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 27",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 28",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 78,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 29",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 79,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 30",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 31",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 81,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 32",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 82,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 33",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 34",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 84,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 35",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 85,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 36",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 37",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 87,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 38",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 88,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 39",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 40",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 90,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 41",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 91,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 42",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 43",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 93,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 44",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 94,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 45",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 46",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 96,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 47",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 97,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 48",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 49",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 99,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 50",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 100,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 51",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 52",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 102,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 53",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 103,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 54",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 55",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 105,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 56",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 106,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 57",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 58",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 108,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 59",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 109,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 60",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 61",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 111,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 62",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 112,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 63",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 64",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 114,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 65",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 115,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 66",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 67",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 117,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 68",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 118,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 69",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 70",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 120,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 71",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 121,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 72",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 73",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 123,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 74",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 124,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 75",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 76",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 126,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 77",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 127,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 78",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 79",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 129,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 80",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 130,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 81",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 82",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 132,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 83",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 133,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 84",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 85",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 135,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 86",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 136,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 87",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 88",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 138,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 89",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 139,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 90",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 91",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 141,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 92",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 142,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 93",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 94",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 144,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 95",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 145,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 96",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 97",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 147,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 98",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 148,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 99",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 100",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 150,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 101",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 151,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 102",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 103",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 153,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 104",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 154,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 105",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 106",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 156,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 107",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 157,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 108",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 109",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 159,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 110",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 160,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 111",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 112",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 162,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 113",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 163,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 114",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 115",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 165,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 116",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 166,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 117",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 118",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 168,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 119",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 169,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 120",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 121",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 171,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 122",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 172,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 123",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 124",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 174,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 125",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 175,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 126",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 127",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 177,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 128",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 178,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 129",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 130",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 180,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 131",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 181,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 132",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 133",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 183,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 134",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 184,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 135",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 136",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 186,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 137",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 187,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 138",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 139",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 189,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 140",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 190,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 141",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 142",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 192,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 143",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 193,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 144",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 145",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 195,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 146",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 196,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 147",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 148",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 198,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 149",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 199,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 150",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 151",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 201,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 152",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 202,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 153",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 154",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 204,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 155",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 205,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 156",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 157",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 207,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 158",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 208,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 159",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 160",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 210,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 161",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 211,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 162",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 163",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 213,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 164",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 214,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 165",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 166",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 216,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 167",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 217,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 168",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 169",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 219,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 170",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 220,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 171",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 172",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 222,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 173",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 223,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 174",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 175",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 225,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 176",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 226,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 177",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 178",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 228,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 179",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 229,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 180",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 181",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 231,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 182",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 232,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 183",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 184",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 234,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 185",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 235,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 186",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 187",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 237,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 188",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 238,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 189",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 190",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 240,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 191",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 241,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 192",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 193",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 243,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 194",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 244,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 195",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 196",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 246,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 197",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 247,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 198",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 199",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 249,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 200",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 250,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 201",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 202",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 252,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 203",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 253,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 204",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 205",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 255,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 206",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 256,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 207",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 208",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 258,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 209",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 259,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 210",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 211",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 261,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 212",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 262,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 213",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 214",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 264,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 215",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 265,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 216",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 217",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 267,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 218",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 268,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 219",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 220",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 270,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 221",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 271,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 222",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 223",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 273,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 224",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 274,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 225",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 226",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 276,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 227",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 277,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 228",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 229",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 279,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 230",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 280,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 231",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 232",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 282,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 233",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 283,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 234",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 235",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 285,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 236",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 286,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 237",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 238",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 288,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 239",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 289,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 240",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 241",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 291,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 242",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 292,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 243",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 244",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 294,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 245",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 295,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 246",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 247",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 297,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 248",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 298,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 249",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 250",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 300,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 251",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 301,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 252",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 253",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 303,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 254",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 304,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 255",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 256",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 306,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 257",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 307,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 258",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 259",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 309,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 260",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 310,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 261",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 262",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 312,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 263",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 313,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 264",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 265",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 315,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 266",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 316,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 267",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 268",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 318,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 269",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 319,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 270",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 271",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 321,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 272",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 322,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 273",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 274",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 324,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 275",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 325,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 276",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 277",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 327,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 278",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": 328,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 279",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 280",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 330,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 281",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": 331,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 282",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 283",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 333,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 284",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": 334,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 285",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 286",
+    "cat": "essence",
+    "sev": 2,
+    "ld50_mg_per_kg": 336,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 287",
+    "cat": "huile essentielle",
+    "sev": 3,
+    "ld50_mg_per_kg": 337,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 288",
+    "cat": "solvant",
+    "sev": 4,
+    "ld50_mg_per_kg": null,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 289",
+    "cat": "chimique industriel",
+    "sev": 5,
+    "ld50_mg_per_kg": 339,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 290",
+    "cat": "plante",
+    "sev": 1,
+    "ld50_mg_per_kg": 340,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 291",
+    "cat": "produit ménager",
+    "sev": 2,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 292",
+    "cat": "médicament",
+    "sev": 3,
+    "ld50_mg_per_kg": 342,
+    "antidote": "Antidote générique",
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 293",
+    "cat": "métal lourd",
+    "sev": 4,
+    "ld50_mg_per_kg": 343,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 294",
+    "cat": "insecticide",
+    "sev": 5,
+    "ld50_mg_per_kg": null,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  },
+  {
+    "n": "Toxique généré 295",
+    "cat": "aliment",
+    "sev": 1,
+    "ld50_mg_per_kg": 345,
+    "antidote": null,
+    "notes": "Entrée générée automatiquement — vérifier données réelles"
+  }
+]

@@ -50,7 +50,7 @@ input, select{
 
 <script type="text/babel">
 
-// `toxics` will be loaded dynamically from `/data/toxics.json`
+// `toxics` will be loaded dynamically from `data/toxics.json` (chemin relatif)
 
 
 function App(){
@@ -63,7 +63,7 @@ function App(){
   const [selected,setSelected]=React.useState(null);
 
   React.useEffect(()=>{
-    fetch('/data/toxics.json')
+    fetch('data/toxics.json')
       .then(r=>r.json())
       .then(data=>{
         setToxics(data);

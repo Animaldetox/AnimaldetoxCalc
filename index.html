@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AnimalDetox</title>
+
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0b1220;
+  color:white;
+}
+
+.container{
+  max-width:600px;
+  margin:auto;
+  padding:16px;
+}
+
+h1{
+  text-align:center;
+  color:#22c55e;
+}
+
+input, select{
+  width:100%;
+  padding:10px;
+  margin:6px 0;
+  font-size:16px;
+}
+
+.result{
+  margin-top:15px;
+  padding:15px;
+  background:#111827;
+  border-radius:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="root"></div>
+
+<script type="text/babel">
+
+const TOXICS = [
+{n:"Chocolat noir",cat:"methylxanthine",sev:2},
+{n:"Xylitol",cat:"sucre toxique",sev:5},
+{n:"Raisin",cat:"néphrotoxique",sev:4},
+{n:"Oignon",cat:"hémolytique",sev:3},
+{n:"Paracétamol",cat:"hépatotoxique",sev:5},
+{n:"Ibuprofène",cat:"AINS",sev:5},
+{n:"Caféine",cat:"stimulant",sev:3},
+{n:"Laurier rose",cat:"cardiotoxique",sev:5},
+{n:"If",cat:"cardiotoxique",sev:5},
+{n:"Eau de Javel",cat:"corrosif",sev:5}
+];
+
+function App(){
+
+  const [species,setSpecies]=React.useState("chien");
+  const [weight,setWeight]=React.useState(10);
+  const [qty,setQty]=React.useState(10);
+  const [search,setSearch]=React.useState("");
+  const [selected,setSelected]=React.useState(TOXICS[0]);
+
+  const filtered = TOXICS.filter(t =>
+    t.n.toLowerCase().includes(search.toLowerCase()) ||
+    t.cat.toLowerCase().includes(search.toLowerCase())
+  );
+
+  const result = React.useMemo(()=>{
+
+    let dose = (weight > 0) ? (qty/weight) : qty;
+    let score = dose * 10 + selected.sev * 10;
+
+    if(species==="chat") score *= 1.2;
+
+    score = Math.min(100,score);
+
+    let level="🟢 STABLE";
+    if(score>40) level="🟡 MODÉRÉ";
+    if(score>70) level="🔴 URGENCE";
+
+    return {score,level};
+
+  },[species,weight,qty,selected]);
+
+  return(
+    <div className="container">
+
+      <h1>🏥 AnimalDetox</h1>
+
+      <label>Espèce</label>
+      <select onChange={e=>setSpecies(e.target.value)} value={species}>
+        <option value="chien">Chien</option>
+        <option value="chat">Chat</option>
+      </select>
+
+      <label>Poids (kg)</label>
+      <input type="number" min="0" value={weight}
+      onChange={e=>setWeight(+e.target.value)} />
+
+      <label>Quantité (g)</label>
+      <input type="number" min="0" value={qty}
+      onChange={e=>setQty(+e.target.value)} />
+
+      <label>Recherche toxique</label>
+      <input value={search}
+      onChange={e=>setSearch(e.target.value)} />
+
+      <label>Toxique</label>
+      <select
+        value={selected.n}
+        onChange={e=>{
+          const t = TOXICS.find(x=>x.n===e.target.value);
+          setSelected(t);
+        }}
+      >
+        {filtered.map((t,i)=>(
+          <option key={i} value={t.n}>
+            {t.n} [{t.cat}]
+          </option>
+        ))}
+      </select>
+
+      <div className="result">
+        <h2>{result.level}</h2>
+        <p>Score: {Math.round(result.score)}</p>
+        <p>Toxique: {selected.n} — Catégorie: {selected.cat}</p>
+        <p>Sévérity: {selected.sev} / 5</p>
+        <p>Dosage (g/kg): {(weight>0 ? (qty/weight).toFixed(2) : '—')}</p>
+        <p>
+          Conseil: {result.score>70 ? "Contactez un vétérinaire immédiatement." : result.score>40 ? "Surveillez et contactez si les symptômes apparaissent." : "Probablement stable — surveillez et consultez si inquiétude."}
+        </p>
+      </div>
+
+    </div>
+  )
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+
+</script>
+
+</body>
+</html>
